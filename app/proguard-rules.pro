@@ -19,3 +19,14 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-keep public class com.alibaba.fastjson2.*.** {
+   *;
+}
+
+-keep public class androidx.health.connect.client.records.** {
+   *;
+}
+
+-keep public class com.hnlens.ai.service.data.** {
+   *;
+}

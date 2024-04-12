@@ -1,0 +1,141 @@
+/*
+ * Copyright (C) 2022 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+plugins {
+    id("com.android.application")
+    id("kotlin-android")
+    id("maven-publish")
+}
+
+android {
+    namespace 'com.hnlens.ai.sports'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId = ls_ai_sports_application
+        minSdk 33
+        targetSdk 34
+        versionCode = Integer.parseInt(version_code)
+        versionName = ls_ai_sports_version
+
+    }
+
+    signingConfigs {
+        config {
+            keyAlias keystoreAlias
+            keyPassword keystoreAliasPSW
+            storeFile file(keyfile)
+            storePassword keystorePSW
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            lintOptions {
+                checkReleaseBuilds false
+                abortOnError false
+            }
+            signingConfig signingConfigs.config
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.majorVersion
+        freeCompilerArgs = ['-Xjvm-default=all-compatibility']
+    }
+    buildFeatures {
+        compose = true
+        aidl = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.10"
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+
+    // add2: rename 
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            def fileName = "${ls_ai_sports_fileName}-${ls_ai_sports_version}.apk"
+            println("-------> $fileName");
+            outputFileName = fileName
+        }
+    }
+}
+
+publishing {
+    publications {
+        app(MavenPublication) {
+            groupId = ls_ai_sports_application
+            artifactId = ls_ai_sports_fileName
+            version = ls_ai_sports_version
+            artifact("$buildDir/outputs/apk/release/${ls_ai_sports_fileName}-${ls_ai_sports_version}.apk")
+        }
+    }
+
+    repositories {
+        maven {
+            allowInsecureProtocol = true
+            url apk_repo_url
+            credentials {
+                username = artifactory_user
+                password = artifactory_password
+            }
+        }
+    }
+}
+
+tasks.getByName('publishAppPublicationToMavenRepository') {
+    mustRunAfter build
+}
+
+task artifactoryPublish() {
+    dependsOn build, publish
+}
+dependencies {
+    // For Health Connect
+    implementation "androidx.health.connect:connect-client:1.1.0-alpha07"
+
+    // Fix permissions issue until 1.1.0-alpha02
+    implementation "androidx.core:core:1.12.0"
+    implementation "androidx.core:core-ktx:1.12.0"
+
+    // For viewmodel support
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0"
+
+    // To bridge between ListenableFuture and suspend functions
+    implementation "androidx.concurrent:concurrent-futures-ktx:1.1.0"
+
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.4"
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.alibaba.fastjson2:fastjson2:2.0.9.android'
+    implementation 'com.hnlens.lssdk.main:ls_sdk:1.0.0.11@aar'
+}

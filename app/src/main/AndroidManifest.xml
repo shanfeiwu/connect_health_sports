@@ -31,6 +31,17 @@
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light"
             android:label="@string/exercise_info"/>
+        <receiver
+            android:name="com.hnlens.ai.widget.SportsWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_sports" />
+        </receiver>
     </application>
 
 </manifest>

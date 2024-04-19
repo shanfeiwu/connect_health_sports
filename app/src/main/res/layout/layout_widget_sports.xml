@@ -1,6 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Widget.Contact.AppWidget.Container"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/shape_widget_base"
     android:theme="@style/Theme.Contact.AppWidgetContainer">
@@ -8,9 +8,10 @@
 
     <ImageButton
         android:id="@+id/appwidget_img"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@null"
+        android:scaleType="fitXY"
         android:src="@mipmap/ic_widget_sports_2x1" />
 
     <TextView

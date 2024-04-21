@@ -2,7 +2,7 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:initialKeyguardLayout="@layout/layout_widget_sports"
     android:initialLayout="@layout/layout_widget_sports"
-    android:previewImage="@mipmap/ic_launcher"
+    android:previewImage="@mipmap/ic_launcher_sport"
     android:previewLayout="@layout/layout_widget_sports"
     android:resizeMode="horizontal|vertical"
     android:targetCellWidth="2"

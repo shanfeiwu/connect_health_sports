@@ -27,6 +27,24 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.hnlens.ai.activities.SportMainActivity"
+            android:label="@string/sports_main"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hnlens.ai.activities.DataDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.hnlens.ai.detail"/>
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ViewExerciseActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light"

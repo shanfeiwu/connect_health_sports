@@ -20,6 +20,26 @@
     <string name="exercise_name">Exercises</string>
     <string name="exercise_info">Exercise info</string>
     <string name="delete">Delete</string>
+    <string name="sports_main">sports_main</string>
+    <string name="sport_main_top_step_text">0 / 6000步</string>
+    <string name="sport_main_top_calories_text">0 / 500千卡</string>
+    <string name="sport_main_top_time_text">0 / 30分</string>
+    <string name="this_is_line_chart">this is line chart</string>
+
+    <string name="sport_main_item_title_heart_rate">Heart Rate</string>
+    <string name="sport_main_item_title_blood_pressure">Blood Pressure</string>
+    <string name="sport_main_item_title_step">Step</string>
+    <string name="sport_main_item_title_calories">Calories</string>
+    <string name="sport_main_item_title_sport_record">Sports Record</string>
+    <string name="sport_main_item_title_moderate_exercise">Moderate to high exercise</string>
+    <string name="sport_main_item_title_distance">Distance</string>
+
+    <string name="sport_main_item_summary_default">No Data</string>
+
+    <string name="data_detail_day">Day</string>
+    <string name="data_detail_week">Week</string>
+    <string name="data_detail_month">Month</string>
+
     <string-array name="sleep_notes_array">
         <item>I slept great!</item>
         <item>I got woken up</item>

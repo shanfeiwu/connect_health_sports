@@ -76,6 +76,7 @@ public class ViewExerciseActivity extends AppCompatActivity implements ServiceCo
                     try {
                         Log.v(TAG, "initViews");
                         exerciseInfo = mBinder.readAssociatedSessionData(uuid);
+                        Log.v(TAG, "exerciseInfo： "+exerciseInfo);
                         if (exerciseInfo != null) {
                             Log.i(TAG, exerciseInfo);
                         }

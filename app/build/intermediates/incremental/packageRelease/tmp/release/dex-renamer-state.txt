@@ -1,0 +1,7 @@
+#Mon Apr 29 16:51:08 CST 2024
+base.1=/home/ls/work/code/sports/ls_ai_sports/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/home/ls/work/code/sports/ls_ai_sports/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

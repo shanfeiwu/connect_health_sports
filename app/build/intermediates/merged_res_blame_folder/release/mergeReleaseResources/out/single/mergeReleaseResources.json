@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_recyclerview_item_layout.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/recyclerview_item_layout.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/drawable_sport_main_card_background.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/drawable/sport_main_card_background.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/drawable_shape_widget_base.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/drawable/shape_widget_base.xml"
+    },
+    {
+        "merged": "com.hnlens.ai.sports.app-release-37:/layout_dialog_change_target.xml.flat",
+        "source": "com.hnlens.ai.sports.app-main-38:/layout/dialog_change_target.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/drawable_ic_health_connect_logo.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/drawable/ic_health_connect_logo.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_activity_data_detail_layout.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/activity_data_detail_layout.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_view_exercise.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/view_exercise.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/xml_widget_info_sports.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/xml/widget_info_sports.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_activity_personal_infomation.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/activity_personal_infomation.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_dialog_change_target.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/dialog_change_target.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_exercise_list_item.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/exercise_list_item.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_bar_chart_recyclerview_layout.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/bar_chart_recyclerview_layout.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-xhdpi_ic_widget_sports_2x1.png.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-xhdpi/ic_widget_sports_2x1.png"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-xhdpi_ic_launcher_sport.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-xhdpi/ic_launcher_sport.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_activity_main.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_activity_sport_main_layout.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/activity_sport_main_layout.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/xml_backup_rules.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-release-37:/layout_layout_widget_sports.xml.flat",
+        "source": "/home/ls/.gradle/daemon/8.6/com.hnlens.ai.sports.app-main-38:/layout/layout_widget_sports.xml"
+    }
+]

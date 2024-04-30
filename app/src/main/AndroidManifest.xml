@@ -6,6 +6,21 @@
         <package android:name="com.hnlens.ai.service" />
         <!-- Add other packages if needed -->
     </queries>
+    <queries>
+        <package android:name="com.google.android.apps.healthdata" />
+    </queries> <!-- TODO: declare Health Connect permissions -->
+    <uses-permission android:name="android.permission.health.READ_HEART_RATE" />
+    <uses-permission android:name="android.permission.health.WRITE_HEART_RATE" />
+    <uses-permission android:name="android.permission.health.READ_STEPS" />
+    <uses-permission android:name="android.permission.health.WRITE_STEPS" />
+    <uses-permission android:name="android.permission.health.READ_EXERCISE" />
+    <uses-permission android:name="android.permission.health.WRITE_EXERCISE" />
+    <uses-permission android:name="android.permission.health.READ_TOTAL_CALORIES_BURNED" />
+    <uses-permission android:name="android.permission.health.WRITE_TOTAL_CALORIES_BURNED" />
+    <uses-permission android:name="android.permission.health.READ_WEIGHT" />
+    <uses-permission android:name="android.permission.health.WRITE_WEIGHT" />
+    <uses-permission android:name="android.permission.health.READ_ACTIVE_CALORIES_BURNED"/>
+    <uses-permission android:name="android.permission.health.READ_DISTANCE"/>
 
     <application
         android:allowBackup="true"
@@ -17,7 +32,7 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name="com.hnlens.ai.sports.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
@@ -28,27 +43,43 @@
         </activity>
         <activity
             android:name="com.hnlens.ai.activities.SportMainActivity"
-            android:label="@string/sports_main"
             android:exported="true"
+            android:label="@string/sports_main"
             android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name="com.hnlens.ai.activities.DataDetailActivity"
-            android:theme="@style/Theme.AppCompat.Light"
-            android:exported="false">
             <intent-filter>
-                <action android:name="com.hnlens.ai.detail"/>
+                <action android:name="androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE" />
             </intent-filter>
         </activity>
         <activity
+            android:name="com.hnlens.ai.activities.DataDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="com.hnlens.ai.detail" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hnlens.ai.activities.PersonInfomatinActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="com.hnlens.ai.persioninfo" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".ViewExerciseActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light"
-            android:label="@string/exercise_info"/>
+            android:label="@string/exercise_info"
+            android:theme="@style/Theme.AppCompat.Light" />
+
         <receiver
             android:name="com.hnlens.ai.widget.SportsWidget"
             android:exported="true">

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Contact.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_widget_base"
+    android:theme="@style/Theme.Contact.AppWidgetContainer">
+
+
+    <ImageButton
+        android:id="@+id/appwidget_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_widget_sports_2x1" />
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        style="@style/Widget.Contact.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:text="@string/app_name"
+        android:textColor="#303e4e"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+</RelativeLayout>

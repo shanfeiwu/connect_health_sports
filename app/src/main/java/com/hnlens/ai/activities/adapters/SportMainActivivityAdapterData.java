@@ -3,14 +3,16 @@ package com.hnlens.ai.activities.adapters;
 public class SportMainActivivityAdapterData {
     private int id;
     private String title;
-    private String summary;
     private int iconId;
+    private long data;
+    private String date;
 
-    public SportMainActivivityAdapterData(int id, String title, String summary, int iconId) {
+    public SportMainActivivityAdapterData(long data, String date, int iconId, int id, String title) {
+        this.data = data;
+        this.date = date;
+        this.iconId = iconId;
         this.id = id;
         this.title = title;
-        this.summary = summary;
-        this.iconId = iconId;
     }
 
     public int getId() {
@@ -29,12 +31,12 @@ public class SportMainActivivityAdapterData {
         this.title = title;
     }
 
-    public String getSummary() {
-        return summary;
+    public long getData() {
+        return data;
     }
 
-    public void setSummary(String summary) {
-        this.summary = summary;
+    public void setData(long data) {
+        this.data = data;
     }
 
     public int getIconId() {
@@ -43,5 +45,13 @@ public class SportMainActivivityAdapterData {
 
     public void setIconId(int iconId) {
         this.iconId = iconId;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }

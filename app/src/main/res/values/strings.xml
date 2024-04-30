@@ -39,6 +39,18 @@
     <string name="data_detail_day">Day</string>
     <string name="data_detail_week">Week</string>
     <string name="data_detail_month">Month</string>
+    <string name="persional_infomation">Persional Infomation</string>
+
+    <string name="current_weight">current weight: 1%$s</string>
+    <string name="target_weight">target weight: 1%$s</string>
+    <string name="target_step">target step: 1%$s</string>
+    <string name="target_exercise_time">target exercise time: 1%$s</string>
+
+    <string name="current_weight_title">current weight</string>
+    <string name="target_weight_title">target weight</string>
+    <string name="target_step_title">target step</string>
+    <string name="target_exercise_time_title">target exercise time</string>
+    <string name="btn_set_goal">Set goal</string>
 
     <string-array name="sleep_notes_array">
         <item>I slept great!</item>

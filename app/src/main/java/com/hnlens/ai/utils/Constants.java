@@ -28,4 +28,10 @@ public class Constants {
     public static final int WEEK_BAR_COUNT = 7;
     public static final int MONTH_BAR_COUNT = 31;
 
+    public static final String SP_NAME = "save_data";
+    public static final String SP_TARGET_WEIGHT = "target_weight";
+    public static final String SP_TARGET_STEP = "target_step";
+    public static final String SP_TARGET_DISTANCE = "target_distance";
+    public static final String SP_TARGET_CALORIES = "target_calories";
+
 }

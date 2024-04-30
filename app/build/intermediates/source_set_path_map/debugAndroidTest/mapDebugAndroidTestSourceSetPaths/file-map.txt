@@ -1,0 +1,4 @@
+com.hnlens.ai.sports.test.app-androidTest-0 /home/ls/work/code/sports/ls_ai_sports/app/build/generated/res/resValues/androidTest/debug
+com.hnlens.ai.sports.test.app-mergeDebugAndroidTestResources-1 /home/ls/work/code/sports/ls_ai_sports/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.hnlens.ai.sports.test.app-mergeDebugAndroidTestResources-2 /home/ls/work/code/sports/ls_ai_sports/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.hnlens.ai.sports.test.app-debugAndroidTest-3 /home/ls/work/code/sports/ls_ai_sports/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

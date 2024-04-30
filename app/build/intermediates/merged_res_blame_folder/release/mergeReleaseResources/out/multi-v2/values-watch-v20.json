@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.hnlens.ai.sports.app-mergeReleaseResources-35:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/ls/.gradle/caches/transforms-4/af4e1f232466768843ad7c0629499a0f/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

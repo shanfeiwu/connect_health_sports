@@ -1,5 +1,6 @@
 package com.hnlens.ai.activities.adapters;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,11 +27,11 @@ public class SportMainActivivityAdapter extends RecyclerView.Adapter<SportMainAc
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext().getApplicationContext()).inflate(R.layout.recyclerview_item_layout,parent,false);
+        View view = LayoutInflater.from(parent.getContext().getApplicationContext()).inflate(R.layout.recyclerview_item_layout, parent, false);
         ViewHolder viewHolder = new ViewHolder(view);
-        view.setOnClickListener(v->{
-            if(mOnItemClickListener != null){
-                mOnItemClickListener.onItemClick(view,viewHolder.getAbsoluteAdapterPosition());
+        view.setOnClickListener(v -> {
+            if (mOnItemClickListener != null) {
+                mOnItemClickListener.onItemClick(view, viewHolder.getAbsoluteAdapterPosition());
             }
         });
         return viewHolder;
@@ -39,9 +40,10 @@ public class SportMainActivivityAdapter extends RecyclerView.Adapter<SportMainAc
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         SportMainActivivityAdapterData sportMainActivivityAdapterData = mData.get(position);
-        holder.iconView.setImageResource(sportMainActivivityAdapterData.getIconId());
-        holder.titleView.setText(sportMainActivivityAdapterData.getTitle());
-        holder.summaryView.setText(sportMainActivivityAdapterData.getSummary());
+        holder.iv_iconView.setImageResource(sportMainActivivityAdapterData.getIconId());
+        holder.tv_titleView.setText(sportMainActivivityAdapterData.getTitle());
+        holder.tv_item_data.setText(sportMainActivivityAdapterData.getData() + "");
+        holder.tv_item_date.setText(sportMainActivivityAdapterData.getDate());
     }
 
 
@@ -50,25 +52,41 @@ public class SportMainActivivityAdapter extends RecyclerView.Adapter<SportMainAc
         return mData.size();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+    public static class ViewHolder extends RecyclerView.ViewHolder {
 
-        public ImageView iconView;
-        public TextView titleView;
-        public TextView summaryView;
+        public ImageView iv_iconView;
+        public TextView tv_titleView;
+        public TextView tv_item_data;
+        public TextView tv_item_date;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            iconView = itemView.findViewById(R.id.recyclerview_item_icon);
-            titleView = itemView.findViewById(R.id.recyclerview_item_title);
-            summaryView = itemView.findViewById(R.id.recyclerview_item_summary);
+            iv_iconView = itemView.findViewById(R.id.recyclerview_item_icon);
+            tv_titleView = itemView.findViewById(R.id.recyclerview_item_title);
+            tv_item_data = itemView.findViewById(R.id.recyclerview_item_data);
+            tv_item_date = itemView.findViewById(R.id.recyclerview_item_date);
         }
     }
 
-    public interface OnItemClickListener{
+    public interface OnItemClickListener {
         void onItemClick(View view, int itemId);
     }
 
     public void setOnItemClickListener(OnItemClickListener onItemClickListener) {
         this.mOnItemClickListener = onItemClickListener;
+    }
+
+    public <T> void updateAdapterData(int itemID, T data) {
+        Log.i("demotest", "updateAdapterData: " + data + " itemID: "+itemID);
+        for (SportMainActivivityAdapterData adapterData : mData) {
+            Log.i("demotest","adapterData: "+adapterData.getId());
+            if (adapterData.getId() == itemID) {
+                if (data instanceof Double) {
+                    adapterData.setData(((Double) data).longValue());
+                } else {
+                    adapterData.setData((Long) data);
+                }
+            }
+        }
     }
 }

@@ -15,6 +15,7 @@
  */
 package com.hnlens.ai.healthconnect.data
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Build
 import android.util.Log
@@ -25,6 +26,7 @@ import androidx.health.connect.client.HealthConnectClient
 import androidx.health.connect.client.HealthConnectClient.Companion.SDK_AVAILABLE
 import androidx.health.connect.client.PermissionController
 import androidx.health.connect.client.changes.Change
+import androidx.health.connect.client.permission.HealthPermission
 import androidx.health.connect.client.records.BasalMetabolicRateRecord
 import androidx.health.connect.client.records.DistanceRecord
 import androidx.health.connect.client.records.ExerciseSessionRecord
@@ -40,6 +42,7 @@ import androidx.health.connect.client.request.ReadRecordsRequest
 import androidx.health.connect.client.time.TimeRangeFilter
 import androidx.health.connect.client.units.Energy
 import androidx.health.connect.client.units.Mass
+import androidx.health.platform.client.permission.Permission
 import java.io.IOException
 import java.time.Instant
 import java.time.ZonedDateTime
@@ -83,6 +86,13 @@ class HealthConnectManager(private val context: Context) {
 
   fun requestPermissionsActivityContract(): ActivityResultContract<Set<String>, Set<String>> {
     return PermissionController.createRequestPermissionResultContract()
+  }
+
+  val weightRecordPermissions = {
+    setOf(
+      HealthPermission.getReadPermission(WeightRecord::class),
+      HealthPermission.getWritePermission(WeightRecord::class)
+    )
   }
 
   /**
@@ -244,7 +254,8 @@ class HealthConnectManager(private val context: Context) {
       maxHeartRate = aggregateData[HeartRateRecord.BPM_MAX],
       avgHeartRate = aggregateData[HeartRateRecord.BPM_AVG],
       heartRateSeries = heartRateData,
-      totalDistance = aggregateData[DistanceRecord.DISTANCE_TOTAL]
+      totalDistance = aggregateData[DistanceRecord.DISTANCE_TOTAL],
+      exerciseType = exerciseSession.record.exerciseType
     )
   }
 

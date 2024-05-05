@@ -1,0 +1,498 @@
+--------- beginning of system
+04-30 11:56:18.627  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+--------- beginning of main
+04-30 11:56:18.627  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:18.929  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:18.929  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:19.132  1071  4312 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+04-30 11:56:19.132  1071  4312 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+04-30 11:56:19.138  1071  4312 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+04-30 11:56:19.138  1071  4312 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+04-30 11:56:19.140  3550  4346 D bt_btm_ble: bool parse_adv_audio_uuids_from_adv_pkt(const uint8_t *, size_t, uint8_t): tmap_cap_pts: false
+04-30 11:56:19.179  1071  4312 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+04-30 11:56:19.179  1071  4312 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+04-30 11:56:19.232  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:19.232  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:19.329  1071  4106 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+04-30 11:56:19.381  5543  5543 W TouchInteractionService: isHideList topActivity:com.android.launcher3.uioverrides.QuickstepLauncher
+04-30 11:56:19.418  5543  5543 W TouchInteractionService: isHideList topActivity:com.android.launcher3.uioverrides.QuickstepLauncher
+04-30 11:56:19.435  5543  5543 W TouchInteractionService: isHideList topActivity:com.android.launcher3.uioverrides.QuickstepLauncher
+04-30 11:56:19.436  5543  5543 W TouchInteractionService: isHideList topActivity:com.android.launcher3.uioverrides.QuickstepLauncher
+04-30 11:56:19.442  1171  1540 D APM_AudioPolicyManager: startSource  test outputDesc->mIoHandle 13 mEngine->getPhoneState() 0 dumpDeviceTypes(outputDesc->devices().types()).c_str() 0x2 stream 1 curves.getVolumeIndex(outputDesc->devices().types()) 5
+04-30 11:56:19.443  2185  4298 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.hnlens.ai.sports/com.hnlens.ai.activities.SportMainActivity bnds=[188,819][360,1058]} from uid 10157
+04-30 11:56:19.445  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10174; state: DISABLED
+04-30 11:56:19.446  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10174; state: DISABLED
+04-30 11:56:19.446  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10174; state: DISABLED
+04-30 11:56:19.446  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10174; state: DISABLED
+04-30 11:56:19.446  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10174; state: DISABLED
+04-30 11:56:19.446  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10174; state: DISABLED
+04-30 11:56:19.446  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10174; state: DISABLED
+04-30 11:56:19.447  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10174; state: DISABLED
+04-30 11:56:19.447  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10174; state: DISABLED
+04-30 11:56:19.447  1069  2371 D AHAL: AudioStream: AutoPerfLock: 127: (Acquired) perf_lock_handle: 0x8dd3, count: 1
+04-30 11:56:19.447  1069  2371 I AHAL: AudioStream: Open: 2625: Enter: OutPrimary usecase(1: low-latency-playback)
+04-30 11:56:19.447  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10174; state: DISABLED
+04-30 11:56:19.447  1069  2371 D AHAL: AudioStream: Open: 2631: no_of_devices 1
+04-30 11:56:19.447  1069  2371 D AHAL: AudioStream: Open: 2686: halInputFormat 1 halOutputFormat 1 palformat 1
+04-30 11:56:19.447  1069  2371 I PAL: ResourceManager: getParameter: 8107: get parameter for HIFI PCM Filter
+04-30 11:56:19.447  1069  2371 D AHAL: AudioStream: Open: 2746: channels 2 samplerate 48000 format id 1, stream type 1  stream bitwidth 16
+04-30 11:56:19.447  1069  2371 D AHAL: AudioStream: Open: 2747: msample_rate 0 mchannels 0 mNoOfOutDevices 1
+04-30 11:56:19.447  1069  2371 I PAL: API: pal_stream_open: 160: Enter, stream type:1
+04-30 11:56:19.447  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10174; state: DISABLED
+04-30 11:56:19.447  1069  2371 I PAL: ResourceManager: isStreamSupported: 2395: config suppported
+04-30 11:56:19.447  1069  2371 I PAL: ResourceManager: getActiveStream_l: 5060: no active streams found for device 3 ret -2
+04-30 11:56:19.447  1069  2371 I PAL: Device: setDeviceAttributes: 302: DeviceAttributes for Device Id 3 updated
+04-30 11:56:19.447  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10174; state: DISABLED
+04-30 11:56:19.447  1069  2371 I PAL: ResourceManager: allocateFrontEndIds: 5952: allocateFrontEndIds: front end 117
+04-30 11:56:19.447  1069  2371 I PAL: PayloadBuilder: populateStreamKV: 2546: stream type 1
+04-30 11:56:19.447  1069  2371 I PAL: PayloadBuilder: getSelectorValues: 2374: Direction: 1
+04-30 11:56:19.447  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10174; state: DISABLED
+04-30 11:56:19.447  1069  2371 I PAL: PayloadBuilder: getSelectorValues: 2390: Instance: 1
+04-30 11:56:19.447  1069  2371 I PAL: PayloadBuilder: findKVs: 2264: key: 0xa1000000 value: 0xa100000e
+04-30 11:56:19.447  1069  2371 I PAL: PayloadBuilder: findKVs: 2264: key: 0xab000000 value: 0x1
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: populateDeviceKV: 2660: Enter device id:3
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: findKVs: 2277: key: 0xa2000000 value: 0xa2000001
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: populateDeviceKV: 2688: Exit device id:3, status 0
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: populateDevicePPKV: 2802: Rx device id:3
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: getSelectorValues: 2444: stream type: 1
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: findKVs: 2264: key: 0xa2000000 value: 0xa2000001
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: findKVs: 2264: key: 0xac000000 value: 0xac000002
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: populateDevicePPCkv: 2943: SpeakerProt Status[0], RAS Status[0]
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: populateAwCalKeyVector: 3174: Awinic populateAwCalKeyVector enter
+04-30 11:56:19.448  1069  2371 I PAL: ResourceManager: setAwinicSpkMode: 11287: setAwinicSpkMode cur_audio_mode 0
+04-30 11:56:19.448  1069  2371 I PAL: PayloadBuilder: populateAwCalKeyVector: 3180: Awinic set aw spk mode 1
+04-30 11:56:19.448  1069  2371 I AGM: device: device_set_metadata: 691 Setting device metadata for CODEC_DMA-LPAIF_RXTX-RX-1
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 79 *************************Metadata*************************
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 80 GKV size:1
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 83 key:0xa2000000, value:0xa2000001 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 87 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: CKV count:0
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 92 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 94 Property ID:134217744
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 95 property count:2
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 98 Property Values: 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 100 0x2 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 100 0x5 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 102 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 103 ****************Metadata Done***************************
+04-30 11:56:19.448  1069  2371 D AGM: metadata: 
+04-30 11:56:19.448  1069  2371 D agm_server_wrapper: Aif id 6 already added to session list of 117
+04-30 11:56:19.448  1069  2371 I AGM: session: session_obj_set_sess_aif_metadata: 1753 Setting metadata for sess aif id 6
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 79 *************************Metadata*************************
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 80 GKV size:2
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 83 key:0xa2000000, value:0xa2000001 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 83 key:0xac000000, value:0xac000002 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 87 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: CKV count:2
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 90 key:0xd2000000, value:0x0 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 90 key:0xe8000000, value:0x1 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 92 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 94 Property ID:134217744
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 95 property count:1
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 98 Property Values: 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 100 0x3 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 102 
+04-30 11:56:19.448  1069  2371 D AGM: metadata: metadata_print: 103 ****************Metadata Done***************************
+04-30 11:56:19.448  1069  2371 D AGM: metadata: 
+04-30 11:56:19.448  1069  2371 I AGM: session: session_obj_set_sess_aif_metadata: 1773 Exit
+04-30 11:56:19.449  1069  2371 D agm_server_wrapper: Aif id 6 already added to session list of 117
+04-30 11:56:19.449  1069  2371 I AGM: API: agm_session_aif_connect: 603 connecting aifid:6 with session id=117
+04-30 11:56:19.449  1069  2371 I PAL: Device: open: 372: Enter. deviceCount 0 for device id 3 (PAL_DEVICE_OUT_SPEAKER)
+04-30 11:56:19.449  1069  2371 I PAL: SessionAlsaUtils: setDeviceMediaConfig: 967: CODEC_DMA-LPAIF_RXTX-RX-1 rate ch fmt data_fmt 48000 1 2 1
+04-30 11:56:19.449  1069  2371 D audio_route: Apply path: speaker
+04-30 11:56:19.450  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10174; state: ENABLED
+04-30 11:56:19.453  1069  2371 I PAL: Device: open: 407: Exit. deviceCount 1 for device id 3 (PAL_DEVICE_OUT_SPEAKER), exit status: 0
+04-30 11:56:19.453  1069  2371 I PAL: ResourceManager: GetConcurrencyInfo: 4431: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+04-30 11:56:19.453  1069  2371 I PAL: ResourceManager: GetConcurrencyInfo: 4431: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+04-30 11:56:19.453  1069  2371 I PAL: ResourceManager: GetConcurrencyInfo: 4431: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+04-30 11:56:19.453  1069  2371 I PAL: API: pal_stream_open: 196: Exit. Value of stream_handle 0xb400006f62557d30K, status 0
+04-30 11:56:19.453  1069  2371 D AHAL: AudioStream: GetBufferSize: 2580: type 1
+04-30 11:56:19.453  1069  2371 D AHAL: AudioStream: Open: 2880: fragment_size_ 768 fragments_ 2
+04-30 11:56:19.453  1069  2371 D AHAL: AudioStream: Open: 2910: Exit ret: 0
+04-30 11:56:19.453  1069  2371 D AHAL: AudioStream: ~AutoPerfLock: 137: (release) perf_lock_handle: 0x8dd3, count: 1
+04-30 11:56:19.453  1069  2371 D AHAL: AudioStream: ~AutoPerfLock: 141: Releasing perf_lock_handle: 0x8dd3
+04-30 11:56:19.454  1069  2371 D AHAL: AudioStream: AutoPerfLock: 127: (Acquired) perf_lock_handle: 0x8dd6, count: 1
+04-30 11:56:19.454  1069  2371 I PAL: API: pal_stream_start: 260: Enter. Stream handle 0xb400006f62557d30K
+04-30 11:56:19.454  1069  2371 I PAL: SessionAlsaUtils: setDeviceMediaConfig: 967: CODEC_DMA-LPAIF_RXTX-RX-1 rate ch fmt data_fmt 48000 1 2 1
+04-30 11:56:19.454  1069  2371 E PAL: ResourceManager: voteSleepMonitor: 1398: ioctl device is not open
+04-30 11:56:19.454  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10174; state: DISABLED
+04-30 11:56:19.455  1069  2371 D agm_client_wrapper: agm_session_open called with handle = 87db0e60 , *handle = 0
+04-30 11:56:19.457  1069  2371 D AGM: graph: graph_open: 564 entry
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 79 *************************Metadata*************************
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 80 GKV size:4
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 83 key:0xa1000000, value:0xa100000e 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 83 key:0xab000000, value:0x1 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 83 key:0xa2000000, value:0xa2000001 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 83 key:0xac000000, value:0xac000002 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 87 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: CKV count:3
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 90 key:0xa4000000, value:0xf 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 90 key:0xd2000000, value:0x0 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 90 key:0xe8000000, value:0x1 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 92 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 94 Property ID:134217744
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 95 property count:4
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 98 Property Values: 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 100 0x1 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 100 0x3 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 100 0x2 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 100 0x5 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 102 
+04-30 11:56:19.457  1069  2371 D AGM: metadata: metadata_print: 103 ****************Metadata Done***************************
+04-30 11:56:19.457  1069  2371 D AGM: metadata: 
+04-30 11:56:19.457  1069  2371 E ACDB    : AcdbCmdGetGraphAlias:4153 Error[19]: Graph Alias chunk data does not exist. Is it enabled?.
+04-30 11:56:19.457  1069  2371 E gsl     : gsl_get_graph_alias:2182 acdb get graph alias failed 19, len 255
+04-30 11:56:19.457  1069  2371 D AGM: graph: print_graph_alias: 2242 gsl_get_graph_alias failed: ret = 19
+04-30 11:56:19.457  1069  2371 D AGM: graph: graph_open: 644 miid 40bd mid 7001000 tag c0000002
+04-30 11:56:19.457  1069  2371 D AGM: graph: graph_open: 692 miid 43b1 mid 7001023 tag c0000004
+04-30 11:56:19.457  1069  2371 D AGM: graph: graph_open: 644 miid 40c4 mid 7001019 tag c0000006
+04-30 11:56:19.457  1069  2371 D AGM: graph: graph_open: 644 miid 40bf mid 7001005 tag c000000e
+04-30 11:56:19.457  1069  2371 D AGM: graph: graph_open: 644 miid 40c0 mid 7001003 tag c0000010
+04-30 11:56:19.457  1069  2371 D AGM: graph: graph_open: 644 miid 4165 mid 7001032 tag c0000013
+04-30 11:56:19.457  1069  2371 I GPR:    : __gpr_cmd_register_v2:902 GPR Register: Source Port is 8208 heap_index: 0
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_graph_open_sgids_and_connections:2725 num_sgid= 4
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_graph_open_sgids_and_connections:2726 sg list:
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_graph_open_sgids_and_connections:2728 b0000002
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_graph_open_sgids_and_connections:2728 b0000025
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_graph_open_sgids_and_connections:2728 b0000024
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_graph_open_sgids_and_connections:2728 b0000023
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_print_sg_conn_info:180 num_sg_conn = 3
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_print_sg_conn_info:182 sg b0000025 has 1 children:
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_print_sg_conn_info:185 b0000002, 
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_print_sg_conn_info:182 sg b0000024 has 1 children:
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_print_sg_conn_info:185 b0000025, 
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_print_sg_conn_info:182 sg b0000023 has 1 children:
+04-30 11:56:19.457  1069  2371 I gsl     : gsl_print_sg_conn_info:185 b0000024, 
+04-30 11:56:19.459  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10174; state: DISABLED
+04-30 11:56:19.459  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10174; state: DISABLED
+04-30 11:56:19.459  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10174; state: DISABLED
+04-30 11:56:19.459  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10174; state: DISABLED
+04-30 11:56:19.460  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10174; state: ENABLED
+04-30 11:56:19.461  2185  4298 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+04-30 11:56:19.462   562  1372 I audioadsprpcd: vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:984: Successfully opened file /vendor/dsp/adsp/CFCM.so.1
+04-30 11:56:19.465  2185  4298 D CompatibilityChangeReporter: Compat change id reported: 194833441; UID 10174; state: ENABLED
+04-30 11:56:19.466   562  1372 I audioadsprpcd: vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:984: Successfully opened file /vendor/dsp/adsp/SAPlusCmnModule.so.1
+04-30 11:56:19.468  5543  5585 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[1,3]/[1,1]
+04-30 11:56:19.469  1129  1165 E ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: AddAndApply() 131: Resource value ffffffff is not supported
+04-30 11:56:19.470  2185  2238 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10174; state: DISABLED
+04-30 11:56:19.470  2185  2238 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10174; state: DISABLED
+04-30 11:56:19.470  2185  2238 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10174; state: DISABLED
+04-30 11:56:19.470  2185  2238 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10174; state: ENABLED
+04-30 11:56:19.471  2185  2245 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10174; state: ENABLED
+04-30 11:56:19.477  1069  2371 E ACDB    : AcdbCmdGetProcSubgraphCalDataPersist:8416 Error[19]: No calibration found
+04-30 11:56:19.477  1069  2371 E ACDB    : AcdbCmdGetProcSubgraphCalDataPersist:8416 Error[19]: No calibration found
+04-30 11:56:19.477  1069  2371 E ACDB    : AcdbCmdGetProcSubgraphCalDataPersist:8416 Error[19]: No calibration found
+04-30 11:56:19.477  1069  2371 E ACDB    : AcdbCmdGetProcSubgraphCalDataPersist:8416 Error[19]: No calibration found
+04-30 11:56:19.478  1069  2371 D AGM: graph: graph_open: 723 graph_handle 0x47534c
+04-30 11:56:19.478  1069  2371 D AGM: graph: graph_open: 758 exit, ret 0
+04-30 11:56:19.478  1069  2371 D agm_client_wrapper: agm_session_open Received handle = 0x6e87db0e60 , *handle = b400006f72556150
+04-30 11:56:19.478  1069  2371 D PLUGIN: pcm: agm_pcm_hw_params: 469 agm_pcm_hw_params: mode: 0
+04-30 11:56:19.478  1069  2371 I PAL: Session: updateCustomPayload: 404: customPayloadSize = 32
+04-30 11:56:19.478  1069  2371 D AGM: graph: graph_set_config: 1118 entry graph_handle 0x47534c
+04-30 11:56:19.478  1069  2371 D AGM: graph: graph_set_config: 1126 exit, graph handle 0x47534c, ret 0
+04-30 11:56:19.478  1069  2371 D AGM: graph: graph_prepare: 819 entry graph_handle 0x47534c
+04-30 11:56:19.478  1069  2371 D AGM: graph_module: configure_pcm_shared_mem_ep: 1604 entry mod tag c0000002 miid 40bd mid 7001000
+04-30 11:56:19.478  1069  2371 D AGM: graph_module: configure_pcm_shared_mem_ep: 1680 exit, ret 0
+04-30 11:56:19.478  1069  2371 D AGM: graph_module: configure_hw_ep_media_config: 664 entry mod tag c0000004 miid 43b1 mid 7001023
+04-30 11:56:19.478  1069  2371 D AGM: graph_module: configure_hw_ep_media_config: 694 rate 48000 bw 16 ch 1, data_fmt 1
+04-30 11:56:19.478  1069  2371 D AGM: graph_module: configure_hw_ep_media_config: 704 exit, ret 0
+04-30 11:56:19.479  1069  2371 D AGM: graph_module: configure_codec_dma_ep: 281 cdc_dma intf cfg lpaif 1 indx 2 ch_msk 1
+04-30 11:56:19.479  1069  2371 D AGM: graph_module: configure_codec_dma_ep: 296 exit, ret 0
+04-30 11:56:19.479  1069  2371 D AGM: graph_module: configure_output_media_format: 790 entry mod tag c000000e miid 40bf mid 7001005
+04-30 11:56:19.479  1069  2371 D AGM: graph_module: configure_output_media_format: 921 exit, ret 0
+04-30 11:56:19.479  1069  2371 D AGM: graph_module: configure_output_media_format: 790 entry mod tag c0000010 miid 40c0 mid 7001003
+04-30 11:56:19.479  1069  2371 D AGM: graph_module: configure_output_media_format: 921 exit, ret 0
+04-30 11:56:19.479  1069  2371 D AGM: graph_module: configure_spr: 1804 SPR module IID 4165
+04-30 11:56:19.479  1069  2371 D AGM: graph_module: configure_spr: 1827 HW EP module IID 43b1
+04-30 11:56:19.480  1069  2371 D AGM: graph: configure_buffer_params: 195 Enter
+04-30 11:56:19.480  1069  2371 D AGM: graph: configure_buffer_params: 258 Playback sess buf_sz 768 num_bufs 2
+04-30 11:56:19.480  1069  2371 E AGM: graph: configure_buffer_params: 291 Unsupported buffer mode : 0, Default to Blocking
+04-30 11:56:19.480  1069  2371 D AGM: graph: configure_buffer_params: 311 exit, ret 0
+04-30 11:56:19.482  1004  1004 D Zygote  : Forked child process 9839
+04-30 11:56:19.482  1069  2371 D AGM: graph: graph_prepare: 897 exit, ret 0
+04-30 11:56:19.482  1069  2371 D AGM: graph: graph_start: 911 entry graph_handle 0x47534c
+04-30 11:56:19.484  2185  9840 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1189 com.qualcomm.qti.Performance$SendGameLaunchBroadcast.run:247 java.lang.Thread.run:1012 <bottom of call stack> <bottom of call stack> 
+04-30 11:56:19.485  2185  2245 I ActivityManager: Start proc 9839:com.hnlens.ai.sports/u0a174 for next-top-activity {com.hnlens.ai.sports/com.hnlens.ai.activities.SportMainActivity}
+04-30 11:56:19.487  4703  8210 W SQLiteLog: (28) double-quoted string literal: "com.hnlens.ai.sports"
+04-30 11:56:19.488  1069  2371 D AGM: graph: graph_start: 923 exit, ret 0
+--------- beginning of kernel
+04-30 11:56:18.504  2371  2371 I [Awinic] [0-0058]aw87xxx_acf_get_prof_desc_form_name: get prof desc down
+04-30 11:56:18.504  2371  2371 I [Awinic] [0-0058]aw87xxx_acf_get_prof_desc_form_name: get prof desc down
+04-30 11:56:19.495  9839  9839 I nlens.ai.sports: Using CollectorTypeCC GC.
+04-30 11:56:18.513  2371  2371 I [Awinic] [0-0058]aw87xxx_monitor_start: esd_enable:1, monitor_switch:0, monitor_open_dsp_en:0, is_rec_mode:0
+04-30 11:56:19.501 31293 31299 I adbd    : jdwp connection from 9839
+04-30 11:56:19.507  2185  3300 D CompatibilityInfo: mCompatibilityFlags - 4
+04-30 11:56:19.507  2185  3300 D CompatibilityInfo: applicationDensity - 320
+04-30 11:56:19.507  2185  3300 D CompatibilityInfo: applicationScale - 1.0
+04-30 11:56:19.508  2185  3300 D CompatibilityInfo: mCompatibilityFlags - 4
+04-30 11:56:19.508  2185  3300 D CompatibilityInfo: applicationDensity - 320
+04-30 11:56:19.508  2185  3300 D CompatibilityInfo: applicationScale - 1.0
+04-30 11:56:19.509  1069  2371 I gsl     : gsl_graph_send_persist_cal:863 Skipping persist cal for SG_ID -1342177278: already started
+04-30 11:56:19.510  1069  2371 I gsl     : gsl_graph_send_persist_cal:863 Skipping persist cal for SG_ID -1342177243: already started
+04-30 11:56:19.510  1069  2371 I gsl     : gsl_graph_send_persist_cal:863 Skipping persist cal for SG_ID -1342177244: already started
+04-30 11:56:19.510  1069  2371 I gsl     : gsl_graph_send_persist_cal:863 Skipping persist cal for SG_ID -1342177245: already started
+04-30 11:56:19.510  1069  2371 I PAL: API: pal_stream_start: 297: Exit. status 0
+04-30 11:56:19.510  1069  2371 I AHAL: AudioStream: configurePalOutputStream: 3155: notify GEF client of device config
+04-30 11:56:19.510  1069  2371 D generic_effect_ar: gef_device_config_cb: stream type=6 sample_rate=48000 device=2
+04-30 11:56:19.510  1069  2371 D AHAL: AudioStream: ~AutoPerfLock: 137: (release) perf_lock_handle: 0x8dd6, count: 1
+04-30 11:56:19.510  1069  2371 D AHAL: AudioStream: ~AutoPerfLock: 141: Releasing perf_lock_handle: 0x8dd6
+04-30 11:56:19.511  9839  9839 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10174; state: ENABLED
+04-30 11:56:19.521  9839  9839 D nativeloader: Configuring classloader-namespace for other apk /data/app/~~iNvgGxjAY93i9NPvqkSpWQ==/com.hnlens.ai.sports-Wcas6velRXXkAu-ZMk5y1w==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~iNvgGxjAY93i9NPvqkSpWQ==/com.hnlens.ai.sports-Wcas6velRXXkAu-ZMk5y1w==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.hnlens.ai.sports
+04-30 11:56:19.529  9839  9839 I Perf    : Connecting to perf service.
+04-30 11:56:19.532  9839  9839 V GraphicsEnvironment: ANGLE Developer option for 'com.hnlens.ai.sports' set to: 'default'
+04-30 11:56:19.532  9839  9839 V GraphicsEnvironment: ANGLE GameManagerService for com.hnlens.ai.sports: false
+04-30 11:56:19.532  9839  9839 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+04-30 11:56:19.533  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:19.533  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:19.534  9839  9839 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+04-30 11:56:19.535  9839  9839 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+04-30 11:56:19.553  9839  9839 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+04-30 11:56:19.572 13365 13365 I A       : onPause
+04-30 11:56:19.576  2185  3300 W ActivityTaskManager: takeTaskSnapshot: taskId=421 not found or not visible
+04-30 11:56:19.580  9839  9839 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10174; state: ENABLED
+04-30 11:56:18.601  1086  1086 W healthd : battery l=100 v=4425 t=32.2 h=2 st=5 c=0 fc=3387000 cc=1 chg=u
+04-30 11:56:19.591  3619  3619 V DeviceStatisticsService: chargerType=2 batteryLevel=100 totalBatteryCapacity=3387000
+04-30 11:56:19.591  9839  9839 I DataUtils: 04-30
+04-30 11:56:19.592  3348  6849 D PowerUI : can't show warning due to - plugged: true status unknown: false
+04-30 11:56:19.593  3619  3619 V DeviceStatisticsService: chargerType=2 batteryLevel=100 totalBatteryCapacity=3387000
+04-30 11:56:19.597  3348  4640 D PowerUI : can't show warning due to - plugged: true status unknown: false
+04-30 11:56:19.608  2185  3300 I ActivityTaskManager: START u0 {act=androidx.health.ACTION_REQUEST_PERMISSIONS pkg=com.google.android.apps.healthdata cmp=com.google.android.apps.healthdata/.deeplink.DefaultGateway (has extras)} from uid 10174
+04-30 11:56:19.610  2185  3300 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10174; state: DISABLED
+04-30 11:56:19.613  2185  3300 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+04-30 11:56:19.624  9839  9839 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10174; state: DISABLED
+04-30 11:56:19.627  9839  9858 W Parcel  : Expecting binder but got null!
+04-30 11:56:19.628  2185  5765 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10174; state: DISABLED
+04-30 11:56:19.629  2185  5765 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10174; state: DISABLED
+04-30 11:56:19.632  2185  5765 D CoreBackPreview: Window{e9ce833 u0 com.hnlens.ai.sports/com.hnlens.ai.activities.SportMainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@c2c0169, mPriority=0}
+04-30 11:56:19.651  1122  5620 I SDM     : HWCDisplay::GetColorModeCount: Supported color mode count = 1
+04-30 11:56:19.651  1122  5620 I SDM     : HWCDisplay::GetColorModes: Color mode = 0 is supported
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: QUALCOMM build                   : 67600309f5, I34f73d0972
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: Build Date                       : 07/10/23
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.36.08.23
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: Local Branch                     : 
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.1.0.11.00.00.766.892
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: Remote Branch                    : NONE
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: Build Config                     : S P 12.1.1 AArch64
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+04-30 11:56:19.653  9839  9858 I AdrenoGLES-0: Driver Version                   : 0615.72
+04-30 11:56:19.657  9839  9858 I AdrenoGLES-0: PFP: 0x016ee206, ME: 0x00000000
+04-30 11:56:19.667  9839  9858 W AdrenoUtils: <ReadGpuID_from_sysfs:263>: Failed to read /sys/class/kgsl/kgsl-3d0/gpu_model
+04-30 11:56:19.667  9839  9858 I AdrenoUtils: <ReadGpuID:295>: Reading chip ID through GSL
+04-30 11:56:19.674  1122  5620 I SDM     : HWCDisplay::GetColorModeCount: Supported color mode count = 1
+04-30 11:56:19.674  1122  5620 I SDM     : HWCDisplay::GetColorModes: Color mode = 0 is supported
+04-30 11:56:19.675  9839  9858 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-30 11:56:19.676  2708  9570 I NearbyMediums: Found Fast Ble Advertisements :
+04-30 11:56:19.676  2708  9570 I NearbyMediums: BleAdvertisement { version=2, socketVersion=2, serviceIdHash=null, data=[ 0x23 0x5a 0x32 0x43 0x36 0x11 0x32 0x87 0xd2 0x67 0x24 0x2d 0xb7 0x35 0x75 0x9b 0x7c 0xfd 0xfe 0x2d 0x33 0x23 0x73 ], deviceToken=[ 0x99 0xb2 ] } : 1 times.
+04-30 11:56:19.676  2708  9570 I NearbyMediums: Total 1 fast advertisements.
+04-30 11:56:19.678   650   650 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+04-30 11:56:19.741  2185  3432 I ActivityTaskManager: The Process com.google.android.apps.healthdata Already Exists in BG. So sending its PID: 5135
+04-30 11:56:19.742  2185  3432 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (200461305)
+04-30 11:56:19.743  2185  3432 D CompatibilityInfo: mCompatibilityFlags - 4
+04-30 11:56:19.743  2185  3432 D CompatibilityInfo: applicationDensity - 320
+04-30 11:56:19.743  2185  3432 D CompatibilityInfo: applicationScale - 1.0
+04-30 11:56:19.746  2185  3432 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10174; state: DISABLED
+04-30 11:56:19.746  2185  3432 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10174; state: DISABLED
+04-30 11:56:19.749  2185  2238 D OomAdjuster: App adj change from cached state to fg state : 5135 com.google.android.apps.healthdata
+04-30 11:56:19.763  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9ccf70
+04-30 11:56:19.763  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9cf310
+04-30 11:56:19.763  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9ccf70
+04-30 11:56:19.763  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9cf310
+04-30 11:56:19.779  5135  8082 W Parcel  : Expecting binder but got null!
+04-30 11:56:19.783  2185  5765 D CoreBackPreview: Window{6f8ff7f u0 com.google.android.apps.healthdata/com.google.android.apps.healthdata.deeplink.DefaultGateway}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@60d4795, mPriority=0}
+04-30 11:56:19.802  5135  8082 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-30 11:56:19.813  2185  3300 I ActivityTaskManager: START u0 {flg=0x2010000 pkg=com.google.android.apps.healthdata cmp=com.google.android.apps.healthdata/.permissions.ui.requestpermissions.RequestPermissionsActivity (has extras)} from uid 10175
+04-30 11:56:19.817  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9cc670
+04-30 11:56:19.817  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9cf4f0
+04-30 11:56:19.821  2185  3300 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+04-30 11:56:19.822  2185  2235 I ActivityTaskManager: Displayed com.google.android.apps.healthdata/.deeplink.DefaultGateway: +363ms
+04-30 11:56:19.828  2185  3300 I ActivityTaskManager: The Process com.google.android.apps.healthdata Already Exists in BG. So sending its PID: 5135
+04-30 11:56:19.828  2185  3300 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (201687714)
+04-30 11:56:19.829  2185  3300 D CompatibilityInfo: mCompatibilityFlags - 4
+04-30 11:56:19.829  2185  3300 D CompatibilityInfo: applicationDensity - 320
+04-30 11:56:19.829  2185  3300 D CompatibilityInfo: applicationScale - 1.0
+04-30 11:56:19.834  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:19.834  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:19.838 24692 24692 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096 
+04-30 11:56:19.839 24692 24692 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-30 11:56:19.840 24692 24692 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.healthdata, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-30 11:56:19.840 24692 24692 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-30 11:56:19.841 24692 24692 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password-ascii, password_ascii
+04-30 11:56:19.845  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9cbbf0
+04-30 11:56:19.873  5135  8082 W Parcel  : Expecting binder but got null!
+04-30 11:56:19.875  2185  5765 D CoreBackPreview: Window{3426b80 u0 com.google.android.apps.healthdata/com.google.android.apps.healthdata.permissions.ui.requestpermissions.RequestPermissionsActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5c52dfe, mPriority=0}
+04-30 11:56:19.884  5135  8082 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-30 11:56:19.906  2185  2235 I ActivityTaskManager: Displayed com.google.android.apps.healthdata/.permissions.ui.requestpermissions.RequestPermissionsActivity: +86ms
+04-30 11:56:19.921  5135  5135 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-30 11:56:19.949 24692 24692 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3096 
+04-30 11:56:19.950 32422  9818 E AbstractLogEventBuilder: The provided ProductIdOrigin 3 is not one of the process-level expected values: 1 or 2
+04-30 11:56:19.955 24692 24692 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 0, locked = false
+04-30 11:56:19.955 24692 24692 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.healthdata, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-30 11:56:19.956 24692 24692 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2210 repeatCheckTimes = 1, locked = false
+04-30 11:56:19.957 24692 24692 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password-ascii, password_ascii
+04-30 11:56:20.095 32422 32464 I Finsky  : [286] akyb.a(23): Skipping Gramophone warning due to shell install
+04-30 11:56:20.102 32422  9818 E AbstractLogEventBuilder: The provided ProductIdOrigin 3 is not one of the process-level expected values: 1 or 2
+04-30 11:56:20.142  2708  7976 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+04-30 11:56:20.142  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:20.142  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:20.142  2708  7976 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+04-30 11:56:20.153  2708  7976 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+04-30 11:56:20.162  2708  7976 I FontLog : Pulling font file for id = 82, cache size = 4 [CONTEXT service_id=132 ]
+04-30 11:56:20.177  2708  7976 I FontLog : Pulling font file for id = 82, cache size = 4 [CONTEXT service_id=132 ]
+04-30 11:56:20.197  1179  1313 W TransactionTracing: Could not find layer id -1
+04-30 11:56:20.197  1179  1313 W TransactionTracing: Could not find layer id -1
+04-30 11:56:20.396  1179  1313 W TransactionTracing: Could not find layer id -1
+04-30 11:56:20.396  1179  1313 W TransactionTracing: Could not find layer id -1
+04-30 11:56:20.399  2185  3300 D CoreBackPreview: Window{6f8ff7f u0 com.google.android.apps.healthdata/com.google.android.apps.healthdata.deeplink.DefaultGateway}: Setting back callback null
+04-30 11:56:20.403  2185  5765 W InputManager-JNI: Input channel object '6f8ff7f com.google.android.apps.healthdata/com.google.android.apps.healthdata.deeplink.DefaultGateway (client)' was disposed without first being removed with the input manager!
+04-30 11:56:20.413  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9b5330
+04-30 11:56:20.413  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9ca330
+04-30 11:56:20.413  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9b5330
+04-30 11:56:20.424 13365 13365 I A       : onStop
+04-30 11:56:20.429  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9b3e30
+04-30 11:56:20.444  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:20.444  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:20.446  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9b44f0
+04-30 11:56:20.446  1179  1313 W TransactionTracing: Could not find layer handle 0xb40000799f9cb9b0
+04-30 11:56:20.469  1071  4312 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+04-30 11:56:20.469  1071  4312 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+04-30 11:56:20.476  1071  4312 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+04-30 11:56:20.476  1071  4312 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+04-30 11:56:20.481  3550  4346 D bt_btm_ble: bool parse_adv_audio_uuids_from_adv_pkt(const uint8_t *, size_t, uint8_t): tmap_cap_pts: false
+04-30 11:56:20.484  3550  4346 D bt_btm_ble: bool parse_adv_audio_uuids_from_adv_pkt(const uint8_t *, size_t, uint8_t): tmap_cap_pts: false
+04-30 11:56:20.526  1071  4312 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+04-30 11:56:20.526  1071  4312 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+04-30 11:56:20.676  1071  4106 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+04-30 11:56:20.747  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:20.747  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:21.049  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:21.049  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:21.279  2708  9557 I NearbyConnections: Processing lost BlePeripheral BlePeripheral{advertisement=BleAdvertisement { version=2, socketVersion=2, serviceIdHash=null, data=[ 0x23 0x5a 0x32 0x43 0x36 0x11 0x32 0x87 0xd2 0x67 0x24 0x2d 0xb7 0x35 0x75 0x9b 0x7c 0xfd 0xfe 0x2d 0x33 0x23 0x73 ], deviceToken=[ 0x99 0xb2 ] }, address=null, psm=0, deviceToken=<ByteString@5af61d5 size=2 contents="\231\262">, isSecondProfile=false}.
+04-30 11:56:21.280  2708  9557 I NearbyConnections: Lost BleEndpoint for BlePeripheral BlePeripheral{advertisement=BleAdvertisement { version=2, socketVersion=2, serviceIdHash=null, data=[ 0x23 0x5a 0x32 0x43 0x36 0x11 0x32 0x87 0xd2 0x67 0x24 0x2d 0xb7 0x35 0x75 0x9b 0x7c 0xfd 0xfe 0x2d 0x33 0x23 0x73 ], deviceToken=[ 0x99 0xb2 ] }, address=null, psm=0, deviceToken=<ByteString@5af61d5 size=2 contents="\231\262">, isSecondProfile=false} (with EndpointId Z2C6 and EndpointInfo [ 0x32 0x87 0xd2 0x67 0x24 0x2d 0xb7 0x35 0x75 0x9b 0x7c 0xfd 0xfe 0x2d 0x33 0x23 0x73 ]).
+04-30 11:56:21.280  2708  9557 I NearbyConnections: Unable to record lost endpoint due to null currentDiscoveryPhase
+04-30 11:56:21.280  2708  9557 I NearbyConnections: ClientProxy(43042440) reporting onEndpointLost(Z2C6)
+04-30 11:56:21.283  2708  9570 I NearbySharing: Ignoring lost endpoint Z2C6 because we don't have an associated ShareTarget [CONTEXT service_id=194 ]
+04-30 11:56:21.284  2708  9557 I NearbySharing: Endpoint Z2C6 lost over Nearby Connections [CONTEXT service_id=194 ]
+04-30 11:56:21.351  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:21.351  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:21.425 32422 32459 I Finsky  : [281] qxt.accept(66): SCH: Scheduling phonesky job Id: 12-1, CT: 1714449376273, Constraints: [{ L: 15000, D: 86400000, C: 1, I: 1, N: 1 }]
+04-30 11:56:21.429  1179  1313 W TransactionTracing: Could not find layer id -1
+04-30 11:56:21.429  1179  1313 W TransactionTracing: Could not find layer id -1
+04-30 11:56:21.441 32422 32477 I Finsky  : [298] jwm.apply(57): SCH: Scheduling 1 system job(s)
+04-30 11:56:21.443 32422 32477 I Finsky  : [298] acoq.d(246): SCH: Scheduling system job Id: 9891, L: 9832, D: 53574507, C: false, I: false, N: 1
+04-30 11:56:21.464 32422 32455 I Finsky  : [277] mir.agn(121): [ContentSync] finished, scheduled=true
+04-30 11:56:21.465 32422 32482 I Finsky  : [299] qxt.accept(66): SCH: Scheduling phonesky job Id: 12-1, CT: 1714449376220, Constraints: [{ L: 15000, D: 86400000, C: 1, I: 1, N: 1 }]
+04-30 11:56:21.474 32422 32464 I Finsky  : [286] jwm.apply(57): SCH: Scheduling 1 system job(s)
+04-30 11:56:21.474 32422 32464 I Finsky  : [286] acoq.d(246): SCH: Scheduling system job Id: 9891, L: 9746, D: 53574474, C: false, I: false, N: 1
+04-30 11:56:21.492 32422 32456 I Finsky  : [278] mir.agn(121): [ContentSync] finished, scheduled=true
+04-30 11:56:21.652  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:21.652  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:21.863  1071  4312 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+04-30 11:56:21.863  1071  4312 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+04-30 11:56:21.869  1071  4312 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+04-30 11:56:21.869  1071  4312 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+04-30 11:56:21.871  3550  4346 D bt_btm_ble: bool parse_adv_audio_uuids_from_adv_pkt(const uint8_t *, size_t, uint8_t): tmap_cap_pts: false
+04-30 11:56:21.910  1071  4312 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+04-30 11:56:21.910  1071  4312 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+04-30 11:56:21.955  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:21.955  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:22.061  1071  4106 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+04-30 11:56:22.258  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:22.258  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:22.562  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:22.562  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized
+04-30 11:56:22.774  1069  7588 D AHAL: AudioStream: astream_out_standby: 656: enter: stream (0xb400006fb255fd50), usecase(1: low-latency-playback)
+04-30 11:56:22.774  1069  7588 D AHAL: AudioStream: Standby: 2033: Enter
+04-30 11:56:22.774  1069  7588 I PAL: API: pal_stream_stop: 312: Enter. Stream handle :0xb400006f62557d30K
+04-30 11:56:22.774  1069  7588 D AGM: graph: graph_stop: 939 entry graph_handle 0x47534c
+04-30 11:56:22.781  1069  7588 D AGM: graph: graph_stop: 984 exit, ret 0
+04-30 11:56:22.782  1069  7588 E PAL: ResourceManager: voteSleepMonitor: 1398: ioctl device is not open
+04-30 11:56:22.782  1069  7588 I PAL: API: pal_stream_stop: 348: Exit. status 0
+04-30 11:56:22.782  1069  7588 I PAL: API: pal_stream_close: 211: Enter. Stream handle :0xb400006f62557d30K
+04-30 11:56:22.783  1069  7588 I AGM: API: agm_session_aif_connect: 603 disconnecting aifid:6 with session id=117
+04-30 11:56:22.783  1069  7588 D AGM: graph: graph_stop: 939 entry graph_handle 0x47534c
+04-30 11:56:22.783  1069  7588 D AGM: metadata: metadata_print: 79 *************************Metadata*************************
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 80 GKV size:4
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 83 key:0xa1000000, value:0xa100000e 
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 83 key:0xab000000, value:0x1 
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 83 key:0xa2000000, value:0xa2000001 
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 83 key:0xac000000, value:0xac000002 
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 87 
+04-30 11:56:22.784  1069  7588 D AGM: metadata: CKV count:3
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 90 key:0xa4000000, value:0x0 
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 90 key:0xd2000000, value:0x0 
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 90 key:0xe8000000, value:0x1 
+04-30 11:56:22.784  1069  7588 D AGM: metadata: metadata_print: 92 
+04-30 11:56:22.785  1069  7588 D AGM: metadata: metadata_print: 94 Property ID:134217744
+04-30 11:56:22.785  1069  7588 D AGM: metadata: metadata_print: 95 property count:3
+04-30 11:56:22.785  1069  7588 D AGM: metadata: metadata_print: 98 Property Values: 
+04-30 11:56:22.785  1069  7588 D AGM: metadata: metadata_print: 100 0x3 
+04-30 11:56:22.785  1069  7588 D AGM: metadata: metadata_print: 100 0x2 
+04-30 11:56:22.785  1069  7588 D AGM: metadata: metadata_print: 100 0x5 
+04-30 11:56:22.785  1069  7588 D AGM: metadata: metadata_print: 102 
+04-30 11:56:22.785  1069  7588 D AGM: metadata: metadata_print: 103 ****************Metadata Done***************************
+04-30 11:56:22.785  1069  7588 D AGM: metadata: 
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_graph_close_sgids_and_connections:2056 num_sgid= 3
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_graph_close_sgids_and_connections:2057 sg list:
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_graph_close_sgids_and_connections:2059 b0000002
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_graph_close_sgids_and_connections:2059 b0000025
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_graph_close_sgids_and_connections:2059 b0000024
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_print_sg_conn_info:180 num_sg_conn = 3
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_print_sg_conn_info:182 sg b0000025 has 1 children:
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_print_sg_conn_info:185 b0000002, 
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_print_sg_conn_info:182 sg b0000024 has 1 children:
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_print_sg_conn_info:185 b0000025, 
+04-30 11:56:22.785  1069  7588 I gsl     : gsl_print_sg_conn_info:182 sg b0000023 has 1 children:
+04-30 11:56:22.786  1069  7588 I gsl     : gsl_print_sg_conn_info:185 b0000024, 
+04-30 11:56:22.790  1069  7588 D AGM: graph: graph_stop: 984 exit, ret 0
+04-30 11:56:21.820  7588  7588 I [Awinic] [0-0058]aw87xxx_acf_get_prof_desc_form_name: get prof desc down
+04-30 11:56:21.822  7588  7588 I bengal-asoc-snd soc: spf_core_platform:sound: check_userspace_service_state: pcm_id 6 state 0
+04-30 11:56:22.809  1069  7588 I AGM: device: device_set_metadata: 691 Setting device metadata for CODEC_DMA-LPAIF_RXTX-RX-1
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 79 *************************Metadata*************************
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 80 GKV size:0
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 87 
+04-30 11:56:22.809  1069  7588 D AGM: metadata: CKV count:0
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 92 
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 94 Property ID:134217744
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 95 property count:2
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 98 Property Values: 
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 100 0x2 
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 100 0x5 
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 102 
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 103 ****************Metadata Done***************************
+04-30 11:56:22.809  1069  7588 D AGM: metadata: 
+04-30 11:56:22.809  1069  7588 I AGM: session: session_obj_set_sess_aif_metadata: 1753 Setting metadata for sess aif id 6
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 79 *************************Metadata*************************
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 80 GKV size:0
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 87 
+04-30 11:56:22.809  1069  7588 D AGM: metadata: CKV count:0
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 92 
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 94 Property ID:134217744
+04-30 11:56:22.809  1069  7588 D AGM: metadata: metadata_print: 95 property count:1
+04-30 11:56:22.810  1069  7588 D AGM: metadata: metadata_print: 98 Property Values: 
+04-30 11:56:22.810  1069  7588 D AGM: metadata: metadata_print: 100 0x3 
+04-30 11:56:22.810  1069  7588 D AGM: metadata: metadata_print: 102 
+04-30 11:56:22.810  1069  7588 D AGM: metadata: metadata_print: 103 ****************Metadata Done***************************
+04-30 11:56:22.810  1069  7588 D AGM: metadata: 
+04-30 11:56:22.810  1069  7588 I AGM: session: session_obj_set_sess_aif_metadata: 1773 Exit
+04-30 11:56:22.810  1069  7588 D AGM: session: session_close: 1263 enter
+04-30 11:56:22.810  1069  7588 D AGM: graph: graph_close: 775 entry handle 0x47534c
+04-30 11:56:22.810  1069  7588 I gsl     : gsl_graph_close_sgids_and_connections:2056 num_sgid= 1
+04-30 11:56:22.810  1069  7588 I gsl     : gsl_graph_close_sgids_and_connections:2057 sg list:
+04-30 11:56:22.810  1069  7588 I gsl     : gsl_graph_close_sgids_and_connections:2059 b0000023
+04-30 11:56:22.810  1069  7588 I gsl     : gsl_print_sg_conn_info:180 num_sg_conn = 0
+04-30 11:56:22.812  1069  7588 D AGM: graph: graph_close: 795 exit, ret 0
+04-30 11:56:22.812  1069  7588 D AGM: session: session_close: 1312 exit, ret 0
+04-30 11:56:22.814  1069  7588 I PAL: ResourceManager: freeFrontEndIds: 6158: stream type 1, freeing 117
+04-30 11:56:22.814  1069  7588 I PAL: Device: close: 417: Enter. deviceCount 1 for device id 3 (PAL_DEVICE_OUT_SPEAKER)
+04-30 11:56:22.815  1069  7588 I PAL: Device: close: 429: Exit. deviceCount 0 for device id 3 (PAL_DEVICE_OUT_SPEAKER), exit status 0
+04-30 11:56:22.815  1069  7588 I PAL: ResourceManager: GetConcurrencyInfo: 4431: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+04-30 11:56:22.815  1069  7588 I PAL: ResourceManager: GetConcurrencyInfo: 4431: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+04-30 11:56:22.815  1069  7588 I PAL: ResourceManager: GetConcurrencyInfo: 4431: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+04-30 11:56:22.816  1069  7588 I PAL: ResourceManager: deregisterStream: 2682: stream type 1
+04-30 11:56:22.816  1069  7588 I PAL: ResourceManager: getActiveStream_l: 5060: no active streams found for device 3 ret -2
+04-30 11:56:22.816  1069  7588 I PAL: API: pal_stream_close: 246: Exit. status 0
+04-30 11:56:22.816  1069  7588 D AHAL: AudioStream: Standby: 2116: Exit ret: 0
+04-30 11:56:22.816  1069  7588 D AHAL: AudioStream: astream_out_standby: 664: Exit ret: 0
+04-30 11:56:22.865  5543  5632 E ActivityThread: Failed to find provider info for com.hnlens.wallpaper.theme_control
+04-30 11:56:22.865  5543  5632 D launcher BootBroadcastReceiver: provider has not been initialized

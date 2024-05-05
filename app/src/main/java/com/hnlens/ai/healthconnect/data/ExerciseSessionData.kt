@@ -40,4 +40,5 @@ data class ExerciseSessionData(
     val maxSpeed: Velocity? = null,
     val avgSpeed: Velocity? = null,
     val speedRecord: List<SpeedRecord> = listOf(),
+    val exerciseType: Int
 )

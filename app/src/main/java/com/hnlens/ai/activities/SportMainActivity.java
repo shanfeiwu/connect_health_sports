@@ -6,8 +6,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultCallback;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.health.platform.client.permission.Permission;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -25,6 +27,7 @@ import com.hnlens.ai.utils.Constants;
 import com.hnlens.ai.utils.DataUtils;
 
 import java.time.Instant;
+import java.util.Set;
 
 public class SportMainActivity extends AppCompatActivity implements DataBaseModel.UpdateUIInterface {
 
@@ -35,8 +38,18 @@ public class SportMainActivity extends AppCompatActivity implements DataBaseMode
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sport_main_layout);
+
         initView();
         mHealthConnectManager = new HealthConnectManager(getApplicationContext());
+        registerForActivityResult(mHealthConnectManager.requestPermissionsActivityContract(), new ActivityResultCallback<Set<String>>() {
+            @Override
+            public void onActivityResult(Set<String> result) {
+                Log.i("demotest","onActivityResult");
+                for (String s:result) {
+                    Log.i("demotest",s);
+                }
+            }
+        }).launch(mHealthConnectManager.getWeightRecordPermissions().invoke());
     }
 
     private void initView() {
@@ -64,16 +77,6 @@ public class SportMainActivity extends AppCompatActivity implements DataBaseMode
     @Override
     protected void onResume() {
         super.onResume();
-
-        StepDataModel stepDataModel = new StepDataModel(mHealthConnectManager,this);
-        CaloriesDataModel caloriesDataModel = new CaloriesDataModel(mHealthConnectManager,this);
-        DistanceDataModel distanceDataModel = new DistanceDataModel(mHealthConnectManager,this);
-        stepDataModel.readTodayStepData();
-        caloriesDataModel.readTodayCaloriesData();
-        distanceDataModel.readTodayDistanceData();
-
-        ExceciseDataModel exceciseDataModel = new ExceciseDataModel(mHealthConnectManager);
-        exceciseDataModel.collectAllData();
     }
 
 
